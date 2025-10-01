@@ -13,20 +13,14 @@ Each Lab will be explained in more detail in the following sections:
 ### Objective
 The objective of this lab is to learn about motion control and kinematics for a robot to navigate through a set of waypoints.
 
-<p align="center">The waypoints through the maze are displayed as follows:</p>
+<img width="931" height="711" alt="image" src="https://github.com/user-attachments/assets/531bc600-3776-4154-93a6-7d4f0489ae68" />
 
-<p align="center">
-<img width="500" alt="image" src="">
-</p>
-<p align="center">
-<em>Figure 1: Maze file with predefined waypoints the robot must navigate through</em>
-</p>
 
 To accomplish this task, required the use of several functions that make the robot perform straight-line, curved-line, and rotation motions. 
 A full report with more information and calculations for this lab can be found in this 
 
 Here is the corresponding Python controller for lab 1: [Lab 1 Controller](
 
-The video below shows Lab 1 in action as the robot follows the waypoints described in Figure 1.
+The video below shows Lab 1 in action as the robot follows the waypoints described in Figure 1. 
 
 
