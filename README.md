@@ -1,4 +1,4 @@
-# Mobile Robotics USF
+# Intro to Control of Mobile Robotics USF
 
 This repository is an extension of the project framework, [FAIRIS-Lite](https://github.com/biorobaw/FAIRIS-Lite), enabling users to implement navigational control logic for robots in the Webots simulation. It includes the necessary Python controller files that I have created for the various lab tasks required by this course.
 
