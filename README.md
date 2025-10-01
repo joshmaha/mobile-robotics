@@ -38,8 +38,8 @@ The objective of this lab was to apply a PID controller to navigate parallel to 
 
 
 ### Code
-- [Lab 2 Task 1 Controller](WebotsSim/controllers/lab2_task1.py)  
-- [Lab 2 Task 2 Controller](WebotsSim/controllers/lab2_task2.py)  
+- [Lab 2 Task 1 Controller](lab2/lab2_task1.py)  
+- [Lab 2 Task 2 Controller](lab2/lab2_task2.py)
 
 ### Demo Videos
 - [▶ Watch Lab 2 Task 1](https://1drv.ms/v/c/0456e9a6af993fe4/Eag3bxR8B_5HnEFshaAkeqgBzwUni0caFjEfL3mv09gJAg?e=QTzNwd)  
@@ -58,8 +58,8 @@ It will include how to utilize a camera with object detection and the bug zero a
 <img width="558" height="419" alt="image" src="https://github.com/user-attachments/assets/eec39599-0740-4cea-9ffa-8cdad11b5835" />
 
 ### Code
-- [Lab 3 Task 1 Controller](WebotsSim/controllers/lab3_task1.py)  
-- [Lab 3 Task 2 Controller](WebotsSim/controllers/lab3_task2.py)  
+- [Lab 3 Task 1 Controller](lab3/lab3_task1.py)  
+- [Lab 3 Task 2 Controller](lab3/lab3_task2.py)
 
 ### Demo Videos
 - [▶ Watch Lab 3 Task 1](https://1drv.ms/v/c/0456e9a6af993fe4/Ef9scghueQhOmT8u23jbK2UBWTnxGhoiI917TxhSTT1RBA?e=XhlDZl)  
@@ -77,8 +77,8 @@ The objective of this lab was to utilize probabilistic robot localization. Enode
 
 
 ### Code
-- [Lab 4 Task 1 Controller](WebotsSim/controllers/lab4_task1.py)  
-- [Lab 4 Task 2 Controller](WebotsSim/controllers/lab4_task2.py)  
+- [Lab 4 Task 1 Controller](lab4/lab4_task1.py) 
+- [Lab 4 Task 2 Controller](lab4/lab4_task2.py)
 
 ### Demo Videos
 - [▶ Watch Lab 4 Task 1](https://1drv.ms/v/c/0456e9a6af993fe4/Ef4JC1a1YolIo57hhy0jRKoB46xyzG7l5BpEy16AlvTW7A?e=bkbUfa)  
