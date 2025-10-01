@@ -21,7 +21,7 @@ To accomplish this task, several functions were implemented to perform straight-
 A full report with more details and calculations for this lab can be found in the `Lab_1` folder.  
 
 ### Code
-[Lab 1 Controller](WebotsSim/controllers/lab1.py)
+[Lab 1 Controller](lab1/lab1.py)
 
 ### Demo Video
 [▶ Watch Lab 1 Demo](https://1drv.ms/v/c/0456e9a6af993fe4/ERfQHhCjz7dFjYCLxt1J7HwBrIa7K6sf6w7CPYwhzb9_ug?e=WE0yMk)
