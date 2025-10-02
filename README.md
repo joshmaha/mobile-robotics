@@ -15,7 +15,12 @@ Each Lab will be explained in more detail in the following sections:
 ### Objective
 The objective of this lab is to learn about motion control and kinematics for a robot to navigate through a set of waypoints.
 
+<p align="center">
+  <em>Intended robot path for Maze 1</em>
 <img width="931" height="711" alt="Robot path" src="https://github.com/user-attachments/assets/531bc600-3776-4154-93a6-7d4f0489ae68" />
+</p>
+<p align="center">
+</p>
 
 To accomplish this task, several functions were implemented to perform straight-line, curved, and rotational motions.  
 A full report with more details and calculations for this lab can be found in the `Lab_1` folder.  
@@ -33,9 +38,21 @@ A full report with more details and calculations for this lab can be found in th
 ### Objective
 The objective of this lab was to apply a PID controller to navigate parallel to a wall and stop at adesired distance from an end wall. The lab will also focus on how Lidars are used to measure distances to walls.
 
+<p align="center">
+<em>LiDar Reading Sensors</em>
+</p>
+<p align="center">
 <img width="390" height="254" alt="image" src="https://github.com/user-attachments/assets/193716ea-564e-4cf1-97bc-6b577d53cb51" />
-<img width="677" height="119" alt="image" src="https://github.com/user-attachments/assets/314c785b-eddf-419d-9c3d-fbcf9bfdfcb1" />
+</p>
 
+The PID controller will use the LIDAR sensor to control robot navigation. It will use Kp, Ki, Kd PID “forward” gain constants for motion control, applying them only to the error values related to the forward motion. The control should be applied exclusively towards the robot’s front motion, stopping 1m away from the end wall, and should not influence side motions.
+
+<p align="center">
+<em>Flowchart displaying proportional gain process</em>
+</p>
+<p align="center">
+<img width="677" height="119" alt="image" src="https://github.com/user-attachments/assets/314c785b-eddf-419d-9c3d-fbcf9bfdfcb1" />
+</p>
 
 ### Code
 - [Lab 2 Task 1 Controller](lab2/lab2_task1.py)  
@@ -53,9 +70,30 @@ The objective of this lab was to apply a PID controller to navigate parallel to 
 The objective for this lab is to plan motion fora robot to reach a goal while avoiding obstacles.
 It will include how to utilize a camera with object detection and the bug zero algorithm to navigate through an obstacle-rich environment to reach a goal location
 
+<p align="center">
+<em>Robot Point of View</em>
+</p>
+<p align="center">
 <img width="809" height="288" alt="image" src="https://github.com/user-attachments/assets/513dccbb-3400-47d7-9b0a-95c7d0f6d945" />
-<img width="777" height="382" alt="image" src="https://github.com/user-attachments/assets/813db91a-cd80-4860-ab21-7b647d0ef6d2" />
+</p>
+<br>
+<br>
+<br>
+
+These will be the mazes for this lab where the robot will navigate the maze according to the specific color of the obstacle it intends to reach.
+<p align="center">
+<img width="809" height="288" alt="image" src="https://github.com/user-attachments/assets/813db91a-cd80-4860-ab21-7b647d0ef6d2" />
+</p>
+<p align="center">
+<em>Maze for task 1</em>
+</p>
+
+<p align="center">
 <img width="558" height="419" alt="image" src="https://github.com/user-attachments/assets/eec39599-0740-4cea-9ffa-8cdad11b5835" />
+</p>
+<p align="center">
+<em>Maze for task 2</em>
+</p>
 
 ### Code
 - [Lab 3 Task 1 Controller](lab3/lab3_task1.py)  
@@ -72,8 +110,19 @@ It will include how to utilize a camera with object detection and the bug zero a
 ### Objective
 The objective of this lab was to utilize probabilistic robot localization. Enoders, Compass readings, LiDAR sensors and cameras with object recognition were incorporated into this solution.
 
+<p align="center">
+<em>RGB Values for Maze Obstacles</em>
+</p>
+<p align="center">
 <img width="662" height="440" alt="image" src="https://github.com/user-attachments/assets/449690d8-9907-4b5d-b253-3a31c45ba993" />
+</p>
+
+<p align="center">
+<em>Wall Configuration Using Cardinal Points System</em>
+</p>
+<p align="center">
 <img width="908" height="624" alt="image" src="https://github.com/user-attachments/assets/c9662d32-8294-4d2c-ae10-3584170dbd40" />
+</p>
 
 
 ### Code
