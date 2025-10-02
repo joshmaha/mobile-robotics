@@ -4,7 +4,7 @@ This repository is an extension of the project framework, [FAIRIS-Lite](https://
 
 The controller files are used to simulate robot motion and sensor readings in the Webots development environment. The free, open source Webots simulator can be found [here](https://cyberbotics.com/).
 
-The controller files are the main deliverables for each lab and can be found in the select lab folders
+The controller files are the main deliverables for each lab and can be found in the select lab folders.
 
 Each Lab will be explained in more detail in the following sections:
 
